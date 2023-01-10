@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span style="display: none;" id="info">The algorithm is trying to solve the problem. Please wait until it completes.</span>
+    <div id="select">
+    <input type="number" style="width: 200px;" id="time-input" name="time" placeholder="Enter a time limit (minute)"/><br><span style="color:red; display: none;" id="input-error">Please enter a time limit.</span><br><hr><br>
+        A) <button onclick="BFS();">Breadth-First Search</button><br><br>
+        B) <button onclick="DFS();">Depth-First Search</button><br><br>
+        C) <button onclick="IterativeDFS();">Iterative Deepening Search</button><br><br>
+        D) <button onclick="RandomDFS();">Depth-First Search with Random Selection</button><br><br>
+        E) <button onclick="heuristicDFS();">Depth-First Search with a Node Selection Heuristic</button><br><br>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
